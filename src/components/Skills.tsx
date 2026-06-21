@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Smartphone, Monitor, Cloud, Brain } from "lucide-react";
+import { Smartphone, Monitor, Cloud, Brain, Globe } from "lucide-react";
 
 const skillCategories = [
   {
@@ -23,6 +23,11 @@ const skillCategories = [
     title: "AI & Machine Learning",
     icon: <Brain className="text-blue-500" size={24} />,
     skills: ["Python", "FastAPI", "Scikit-Learn", "HTTP Packages", "Data Processing"],
+  },
+  {
+    title: "Languages (EU Ready)",
+    icon: <Globe className="text-yellow-500" size={24} />,
+    skills: ["English (Professional)", "German (Professional)", "Romanian (Professional)", "Finnish (Professional)", "Sinhala (Native)"],
   },
 ];
 

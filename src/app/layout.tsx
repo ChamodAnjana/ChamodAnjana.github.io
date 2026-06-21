@@ -30,15 +30,41 @@ const jsonLd = {
   "@type": "Person",
   name: "Chamod Anjana",
   jobTitle: "Software Engineer",
+  email: "chamodanjana9651@gmail.com",
   worksFor: {
     "@type": "Organization",
     name: "eVision microsystems"
   },
   url: "https://chamodanjana.me",
   sameAs: [
-    "https://www.linkedin.com/in/chamodanjana"
+    "https://www.linkedin.com/in/chamodanjana",
+    "https://github.com/ChamodAnjana",
+    "https://x.com/Chamod_Anjana_",
+    "https://web.facebook.com/EKChamodAnjana"
   ],
-  knowsAbout: ["Flutter", "Software Development", "ASP.NET", "Full-Stack Engineering"]
+  knowsLanguage: [
+    {
+      "@type": "Language",
+      "name": "English"
+    },
+    {
+      "@type": "Language",
+      "name": "Sinhala"
+    },
+    {
+      "@type": "Language",
+      "name": "Romanian"
+    },
+    {
+      "@type": "Language",
+      "name": "German"
+    },
+    {
+      "@type": "Language",
+      "name": "Finnish"
+    }
+  ],
+  knowsAbout: ["Flutter", "Software Development", "ASP.NET", "Full-Stack Engineering", "Mobile App Development", "Python AI Microservices", "Cloud Infrastructure"]
 };
 
 export default function RootLayout({

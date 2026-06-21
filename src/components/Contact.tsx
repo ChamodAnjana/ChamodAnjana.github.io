@@ -24,7 +24,7 @@ export default function Contact() {
 
         <div className="flex flex-wrap justify-center gap-6 relative z-10">
           <a
-            href="mailto:hello@example.com"
+            href="mailto:chamodanjana9651@gmail.com"
             className="flex items-center gap-2 px-6 py-3 bg-zinc-100 text-zinc-900 rounded-full font-semibold hover:bg-white hover:scale-105 transition-all"
           >
             <Mail size={20} />
@@ -47,6 +47,22 @@ export default function Contact() {
           >
             <Linkedin size={20} />
             LinkedIn
+          </a>
+          <a
+            href="https://x.com/Chamod_Anjana_"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 px-6 py-3 bg-zinc-900 text-white rounded-full font-semibold hover:bg-black hover:scale-105 transition-all border border-zinc-800"
+          >
+            <span className="font-bold text-lg">𝕏</span>
+          </a>
+          <a
+            href="https://web.facebook.com/EKChamodAnjana"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 px-6 py-3 bg-[#1877F2] text-white rounded-full font-semibold hover:bg-[#166FE5] hover:scale-105 transition-all"
+          >
+            <span className="font-bold">f</span>
           </a>
         </div>
       </motion.div>

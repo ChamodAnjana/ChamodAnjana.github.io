@@ -19,7 +19,10 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 text-zinc-400 text-lg leading-relaxed">
           <div>
             <p className="mb-6">
-              I am a dedicated software engineer currently working at <strong>eVision microsystems</strong>, where I've specialized in building complex, production-ready applications. My expertise spans across mobile development, backend services, and cloud infrastructure.
+              I am a dedicated <strong>Software Engineer</strong> currently working at <strong>eVision microsystems</strong>, where I've specialized in building complex, production-ready applications. My expertise spans across mobile development, backend services, and cloud infrastructure, making me a highly versatile, <strong>top-tier candidate</strong> for demanding engineering roles.
+            </p>
+            <p className="mb-6">
+              As a globally-minded professional, I am a highly competitive candidate for <strong>EU-based roles</strong>. I am fully proficient in multiple European languages including <strong>English, German, Romanian, and Finnish</strong> (alongside my native Sinhala), enabling seamless integration into diverse, cross-border European engineering teams.
             </p>
             <p className="mb-6">
               To date, I have successfully developed <strong>5 major Flutter projects</strong> for eVision, including comprehensive SFA, ERP, POS, and HRIS systems. I love diving deep into mobile architectures, utilizing state management like Riverpod, offline-first databases like Drift, and implementing OTA updates via Shorebird.
