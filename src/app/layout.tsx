@@ -14,7 +14,31 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Chamod Anjana | Software Engineer",
-  description: "Portfolio of Chamod Anjana, Software Engineer specializing in AI/ML, Cloud, Flutter & .NET.",
+  description: "Portfolio of Chamod Anjana, Flutter Developer & Full-Stack Engineer at eVision microsystems.",
+  keywords: ["Chamod Anjana", "Flutter Developer", "Software Engineer", "eVision microsystems", "ASP.NET", "Full-Stack"],
+  openGraph: {
+    title: "Chamod Anjana | Software Engineer",
+    description: "Portfolio of Chamod Anjana, Flutter Developer & Full-Stack Engineer at eVision microsystems.",
+    url: "https://chamodanjana.me",
+    siteName: "Chamod Anjana Portfolio",
+    type: "profile",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Chamod Anjana",
+  jobTitle: "Software Engineer",
+  worksFor: {
+    "@type": "Organization",
+    name: "eVision microsystems"
+  },
+  url: "https://chamodanjana.me",
+  sameAs: [
+    "https://www.linkedin.com/in/chamodanjana"
+  ],
+  knowsAbout: ["Flutter", "Software Development", "ASP.NET", "Full-Stack Engineering"]
 };
 
 export default function RootLayout({
@@ -27,6 +51,12 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${robotoMono.variable} h-full antialiased dark`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground bg-[#050505]">
         {children}
       </body>
