@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { HelpCircle } from "lucide-react";
 import { useState } from "react";
+import Script from "next/script";
 
 const faqData = [
   {
@@ -50,7 +51,8 @@ export default function FAQ() {
 
   return (
     <section id="faq" className="scroll-mt-32">
-      <script
+      <Script
+        id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
