@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: "Chamod Anjana | Software Engineer",
   description: "Portfolio of Chamod Anjana, Flutter Developer & Full-Stack Engineer at eVision microsystems.",
   keywords: ["Chamod Anjana", "Flutter Developer", "Software Engineer", "eVision microsystems", "ASP.NET", "Full-Stack"],
+  metadataBase: new URL("https://chamodanjana.me"),
   openGraph: {
     title: "Chamod Anjana | Software Engineer",
     description: "Portfolio of Chamod Anjana, Flutter Developer & Full-Stack Engineer at eVision microsystems.",
