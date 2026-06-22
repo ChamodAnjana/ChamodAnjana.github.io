@@ -16,10 +16,10 @@ export default function Contact() {
         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-[80px]" />
         
         <h2 className="text-3xl md:text-5xl font-bold mb-6 text-zinc-100 relative z-10">
-          Let's Build Something Great
+          Let&apos;s Build Something Great
         </h2>
         <p className="text-zinc-400 text-lg max-w-xl mx-auto mb-10 relative z-10">
-          Whether you have a question, a project idea, or just want to say hi, my inbox is always open. I'll try my best to get back to you!
+          Whether you have a question, a project idea, or just want to say hi, my inbox is always open. I&apos;ll try my best to get back to you!
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 relative z-10">

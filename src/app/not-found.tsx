@@ -25,7 +25,7 @@ export default function NotFound() {
             Page Not Found
           </h2>
           <p className="text-zinc-400 text-lg max-w-md mx-auto leading-relaxed">
-            Oops! The page you are looking for doesn't exist, has been moved, or is temporarily unavailable.
+            Oops! The page you are looking for doesn&apos;t exist, has been moved, or is temporarily unavailable.
           </p>
         </motion.div>
 

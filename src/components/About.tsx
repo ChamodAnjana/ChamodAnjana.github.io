@@ -19,7 +19,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 text-zinc-400 text-lg leading-relaxed">
           <div>
             <p className="mb-6">
-              I am a dedicated <strong>Software Engineer</strong> currently working at <strong>eVision microsystems</strong>, where I've specialized in building complex, production-ready applications. My expertise spans across mobile development, backend services, and cloud infrastructure, making me a highly versatile, <strong>top-tier candidate</strong> for demanding engineering roles.
+              I am a dedicated <strong>Software Engineer</strong> currently working at <strong>eVision microsystems</strong>, where I&apos;ve specialized in building complex, production-ready applications. My expertise spans across mobile development, backend services, and cloud infrastructure, making me a highly versatile, <strong>top-tier candidate</strong> for demanding engineering roles.
             </p>
             <p className="mb-6">
               As a globally-minded professional, I am a highly competitive candidate for <strong>EU-based roles</strong>. I am fully proficient in multiple European languages including <strong>English, German, Romanian, and Finnish</strong> (alongside my native Sinhala), enabling seamless integration into diverse, cross-border European engineering teams.
@@ -37,7 +37,7 @@ export default function About() {
              <ul className="space-y-4">
                <li className="flex items-start gap-3">
                  <span className="text-blue-500 mt-1">▹</span>
-                 <span><strong>Rigorous Engineering:</strong> Whether it's managing complex widget trees in Flutter or writing efficient SQL queries, clean code is non-negotiable.</span>
+                 <span><strong>Rigorous Engineering:</strong> Whether it&apos;s managing complex widget trees in Flutter or writing efficient SQL queries, clean code is non-negotiable.</span>
                </li>
                <li className="flex items-start gap-3">
                  <span className="text-blue-500 mt-1">▹</span>

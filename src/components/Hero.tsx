@@ -53,7 +53,7 @@ export default function Hero() {
             className="flex items-center gap-2 bg-[#0A66C2] hover:bg-[#004182] text-white px-8 py-4 rounded-full font-medium transition-all hover:scale-105 active:scale-95"
           >
             <Linkedin size={18} />
-            Let's Connect
+            Let&apos;s Connect
           </a>
           <a
             href="/resume.pdf"
