@@ -35,7 +35,7 @@ export default function Hero() {
         className="z-10"
       >
         <h2 className="text-blue-400 font-semibold tracking-wide uppercase text-sm mb-4">
-          Software Engineer
+          Software Engineer · Flutter Developer · Full-Stack Engineer
         </h2>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-zinc-100">
           Chamod Anjana
